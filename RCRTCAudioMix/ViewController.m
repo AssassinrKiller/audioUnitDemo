@@ -25,7 +25,7 @@
     
     self.reader.ktvMode = RCRTCAudioKTVMode_Stereo;
     [self.reader start];
-    
+    //test commit
     self.progressTimer = [NSTimer scheduledTimerWithTimeInterval:0.25 repeats:YES block:^(NSTimer * _Nonnull timer) {
         NSLog(@"播放进度:%@",@([self.reader getCurrentTime]));
     }];
